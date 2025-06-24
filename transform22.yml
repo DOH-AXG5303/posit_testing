@@ -1,0 +1,26 @@
+name: transform22
+# Alexey Gilman, 04/18/2021
+# Environment for DOH data transformations
+
+
+channels:
+  - defaults
+dependencies:
+  - python=3.9*
+  - pandas=1.4*
+  - openpyxl=3.0*
+  - hvplot=0.7*
+  - pyodbc=4.0*
+  - requests=2.25*
+  - matplotlib=3.3*
+  - sqlalchemy=1.4.39
+  - python-dotenv=0.21.0
+  - pip:
+      - PyCap == 2.1.0
+
+
+#MANUAL INSTALL
+
+#manual install of jupyterlab
+#manual install of nb_conda   -jupyter support of conda envs
+#manual install of jedi -autocomple text tab
